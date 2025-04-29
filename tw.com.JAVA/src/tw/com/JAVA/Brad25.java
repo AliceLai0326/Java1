@@ -21,12 +21,12 @@ public class Brad25 {
 		System.out.println(id4.getId());
 		
 		System.out.println("-------");
-		TWId id5 = TWId.createTWId("A123456789");
-		if (id5 != null) {
-			System.out.println(id5.getId());
-		}else {
-			System.out.println("XX");
-		}
-		
+//		TWId id5 = TWId.createTWId("A123456789");
+//		if (id5 != null) {
+//			System.out.println(id5.getId());
+//		}else {
+//			System.out.println("XX");
+//		}
+//		
 	}
 }

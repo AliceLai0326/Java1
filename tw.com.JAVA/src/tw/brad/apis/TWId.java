@@ -39,20 +39,28 @@ public class TWId {
 //			
 //		}
 //	}
+	//----------------------------------------------
+	public TWId(String id) throws Exception {
+		if (checkTWId(id)) {
+			this.id = id;
+		} else {
+			throw new Exception();
+		}
+	}
 	
 	//----------------------------------------------
 	
-		private TWId(String id) {
-			this.id = id;
-		}
+//		private TWId(String id) {
+//			this.id = id;
+//		}
 		
-		public static TWId createTWId(String id) {
-			if (checkTWId(id)) {
-				return new TWId(id);
-			}else {
-				return null;
-			}
-		}
+//		public static TWId createTWId(String id) {
+//			if (checkTWId(id)) {
+//				return new TWId(id);
+//			}else {
+//				return null;
+//			}
+//		}
 		//----------------------------------------------
 		public static boolean checkTWId(String id) {
 			boolean isRight = false;
