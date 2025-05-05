@@ -6,8 +6,8 @@ public class Scooter extends Bike{
 		super(2);
 		System.out.println("Scooter()");
 	}
-	
-	public void upSpeed() {
-		speed = speed < 1 ? 2 : speed * 1.8;
+	public Scooter upSpeed() {
+		speed = speed < 1 ? 2 : speed *1.8;
+		return this;
 	}
 }
