@@ -1,0 +1,15 @@
+Mac:
+> cd /Application/XAMPP/bin
+> ./mysql -u root -p 
+
+Windows
+> cd ....
+> mysql -u -root -p
+
+------------------------------------------
+> SHOW DATABASES;
+> CREATE DATABASE db1;
+> USE db1;
+> CREATE TABLE t1 (id INT, f1 VARCHAR(10));
+
+netstat -aon | findstr ":3306"

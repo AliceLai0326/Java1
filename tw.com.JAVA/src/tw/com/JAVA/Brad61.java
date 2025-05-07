@@ -36,10 +36,10 @@ public class Brad61 {
 	}
 	
 	static void parseJSON(String json) {
-		JSONArray root = new JSONArray(json);
+		Jasonarray root = new JSONArray(json);
 		System.out.println(root.length());
 		for (int i=0; i<root.length(); i++) {
-			JSONObject row = root.getJSONObject(i);
+			JSO row = root.getJSONObject(i);
 			String name = row.getString("Name");
 			String tel = row.getString("ContactTel");
 			System.out.printf("%s:%s\n", name, tel);
