@@ -12,7 +12,7 @@ import java.util.Properties;
 public class JDBC05 {
 	private static final String URL = "jdbc:mysql://localhost/brad"; 
 	private static final String USER = "root";
-	private static final String PASSWD = "root";
+	private static final String PASSWD = "";
 
 	public static void main(String[] args) {
 		Properties prop = new Properties();
